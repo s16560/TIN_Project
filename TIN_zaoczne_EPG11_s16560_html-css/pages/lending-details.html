@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comics4you</title>
+	<link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+
+    <header>
+    <h1>Comics4you</h1>
+    <img src="../images/c4y.jpg" alt="Comics4you Logo">
+	</header>
+
+	<nav>
+		<ul>
+			<li><a href="../index.html">Strona główna</a></li>
+			<li><a href="clients-list.html">Klienci</a></li>
+			<li><a href="comics-list.html">Komiksy</a></li>
+			<li><a href="publisher-list.html">Wydawnictwa</a></li>
+			<li><a href="" class="active">Wypożyczenia</a></li>
+		</ul>
+	</nav>
+	
+	<main>
+		<h2>Szczegóły wypożyczenia</h2>
+		<form class="form">
+			
+				<label for="client">Klient:<sup>*</sup></label>
+				<select id="client" name="client" disabled>
+				  <option selected>Nowak Anna 83120200340</option>
+				</select>
+			
+				<label for="comics">Komiks:<sup>*</sup></label>
+				<select id="comics" name="comics" disabled>
+				  <option selected>887 Batman</option>
+				</select>
+			
+				<label for="dateFrom">Data wypożyczenia:<sup>*</sup></label>
+				<input type="date" name="dateFrom" id="dateFrom" value = "2020-09-04" disabled>
+			
+				<label for="dateTo">Data zwrotu:</label>
+				<input type="date" name="dateTo" id="dateFrom" disabled>
+						
+				
+		</form>
+			<div>		
+				<a href="" class="list-actions-button-edit">Edytuj</a>
+				<p><a href="" class="button-back">Powrót</a></p>  
+			<div/>
+	</main>
+	
+	<footer>
+		Michał Pietrzak, s16560
+	</footer>
+</body>
+</html>

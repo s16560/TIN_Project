@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comics4you</title>
+	<link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+
+    <header>
+    <h1>Comics4you</h1>
+    <img src="../images/c4y.jpg" alt="Comics4you Logo">
+	</header>
+
+	<nav>
+		<ul>
+			<li><a href="../index.html">Strona główna</a></li>
+			<li><a href="clients-list.html">Klienci</a></li>
+			<li><a href="" class="active">Komiksy</a></li>
+			<li><a href="publisher-list.html">Wydawnictwa</a></li>
+			<li><a href="lendings-list.html">Wypożyczenia</a></li>
+		</ul>
+	</nav>
+	
+	<main>
+		<h2>Szczegóły komiksu</h2>
+		<form class="form">
+			
+				<label for="title">Tytuł:<sup>*</sup></label>
+				<input type="text" name="title" id="title" value="Thorgal" disabled/>
+			
+				<label for="subtitle">Podtytuł:<sup>*</sup></label>
+				<input type="text" name="subtitle" id="subtitle" value="Łucznicy" disabled/>
+			
+				<label for="publisher">Wydawca:<sup>*</sup></label>
+				<select id="publisher" name="publisher" disabled>
+				  <option selected>Korona</option>
+				</select>				
+			
+				<label for="releaseYear">Rok wydania:<sup>*</sup></label>
+				<input type="text" name="releaseYear" id="releaseYear" value="1992" disabled/>
+			
+				<label for="ISBN">ISBN:<sup>*</sup></label>
+				<input type="text" name="ISBN" id="ISBN" value = "6525423724391" disabled/>
+			
+				<label for="status">Status:<sup>*</sup></label>
+				<select id="publisher" name="publisher" disabled>
+				  <option selected>Dostępny</option>
+				  <option>Wypożyczony</option>
+				</select>
+					
+			<div class="form-buttons">
+				<a href="" class="list-actions-button-edit">Edytuj</a>
+			</div>  
+		</form>
+		
+		<h2>Historia wypożyczeń</h2>
+			<table class = "table-list">
+				<thead>
+					<tr>
+						<th>PESEL</th>
+						<th>Imię</th>
+						<th>Nazwisko</th>
+						<th>Data wypożyczenia</th>
+						<th>Data zwrotu</th>
+					</tr>
+				</thead>
+				
+				<tbody>
+					<tr>
+						<td>80120500345</td>
+						<td>Damian</td>
+						<td>Rajski</td>
+						<td>2018-09-11</td>
+						<td>2018-10-05</td>						
+					</tr>
+					<tr>
+						<td>83120200340</td>
+						<td>Anna</td>
+						<td>Nowak</td>
+						<td>2019-03-12</td>
+						<td>2019-03-29</td>					
+					</tr>					
+				</tbody>
+				
+			</table>
+		
+		<div>
+			<p><a href="" class="button-back">Powrót</a></p>  
+		</div> 
+	</main>
+	
+	<footer>
+		Michał Pietrzak, s16560
+	</footer>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comics4you</title>
+	<link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+
+    <header>
+    <h1>Comics4you</h1>
+    <img src="../images/c4y.jpg" alt="Comics4you Logo">
+	</header>
+
+	<nav>
+		<ul>
+			<li><a href="../index.html">Strona główna</a></li>
+			<li><a href="clients-list.html">Klienci</a></li>
+			<li><a href="comics-list.html">Komiksy</a></li>
+			<li><a href="publisher-list.html">Wydawnictwa</a></li>
+			<li><a href="" class="active">Wypożyczenia</a></li>
+		</ul>
+	</nav>
+	
+	<main>
+		<h2>Nowe wypożyczenie</h2>
+		<form class="form">
+			
+				<label for="client">Klient:<sup>*</sup></label>
+				<select id="client" name="client">
+				  <option selected>-- Wybierz klienta --</option>
+				  <option>Nowak Anna 83120200340</option>
+				  <option>Rajski Damian 80120500345</option>
+				</select>
+			
+				<label for="comics">Komiks:<sup>*</sup></label>
+				<select id="comics" name="comics">
+				  <option selected>-- Wybierz komiks --</option>
+				  <option>43 Thorgal</option>
+				  <option>132 Asterix</option>
+				  <option>887 Batman</option>
+				</select>
+			
+				<label for="dateFrom">Data wypożyczenia:<sup>*</sup></label>
+				<input type="date" name="dateFrom" id="dateFrom">
+			
+				<label for="dateTo">Data zwrotu:</label>
+				<input type="date" name="dateTo" id="dateFrom">
+			
+			<div class="form-buttons" >
+				<input type="submit" value="Dodaj" class="form-button-submit"/>
+				<a href="" class="form-button-cancel">Anuluj</a> 
+			</div>  
+		</form>
+	</main>
+	
+	<footer>
+		Michał Pietrzak, s16560
+	</footer>
+</body>
+</html>

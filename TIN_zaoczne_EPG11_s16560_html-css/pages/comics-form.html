@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comics4you</title>
+	<link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+
+    <header>
+    <h1>Comics4you</h1>
+    <img src="../images/c4y.jpg" alt="Comics4you Logo">
+	</header>
+
+	<nav>
+		<ul>
+			<li><a href="../index.html">Strona główna</a></li>
+			<li><a href="clients-list.html">Klienci</a></li>
+			<li><a href="" class="active">Komiksy</a></li>
+			<li><a href="publisher-list.html">Wydawnictwa</a></li>
+			<li><a href="lendings-list.html">Wypożyczenia</a></li>
+		</ul>
+	</nav>
+	
+	<main>
+		<h2>Nowy komiks</h2>
+		<form class="form">
+			
+				<label for="title">Tytuł:<sup>*</sup></label>
+				<input type="text" name="title" id="title" />
+			
+				<label for="subtitle">Podtytuł:<sup>*</sup></label>
+				<input type="text" name="subtitle" id="subtitle" />
+			
+				<label for="publisher">Wydawca:<sup>*</sup></label>
+				<select id="publisher" name="publisher">
+				  <option selected>-- Wybierz wydawcę --</option>
+				  <option>DC Comics</option>
+				  <option>Egmont</option>
+				  <option>Korona</option>
+				</select>				
+			
+				<label for="releaseYear">Rok wydania:<sup>*</sup></label>
+				<input type="text" name="releaseYear" id="releaseYear" />
+			
+				<label for="ISBN">ISBN:<sup>*</sup></label>
+				<input type="text" name="ISBN" id="ISBN" />
+			
+				<label for="status">Status:<sup>*</sup></label>
+				<select id="publisher" name="publisher">
+				  <option selected>Dostępny</option>
+				  <option>Wypożyczony</option>
+				</select>
+						
+			<div class="form-buttons" >
+				<input type="submit" value="Dodaj" class="form-button-submit"/>
+				<a href="" class="form-button-cancel">Anuluj</a> 
+			</div>  
+		</form>
+	</main>
+	
+	<footer>
+		Michał Pietrzak, s16560
+	</footer>
+</body>
+</html>
